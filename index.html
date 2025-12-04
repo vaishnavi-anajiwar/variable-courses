@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses - Variable Learning Platform (Clone)</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="/">
+        <img src="https://i.postimg.cc/KzMwvGD8/LogoPNG.png" alt="Variable logo" />
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a class="active" href="/courses">Courses</a>
+        <a href="/workshops">Workshops</a>
+        <a href="/career">Blog</a>
+        <a href="/about">About Us</a>
+        <button class="cta">Get Started</button>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+
+    <!-- mobile menu (hidden by default) -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="/">Home</a>
+      <a class="active" href="/courses">Courses</a>
+      <a href="/workshops">Workshops</a>
+      <a href="/career">Blog</a>
+      <a href="/about">About Us</a>
+      <a class="cta-mobile" href="#">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1 class="fade-up">Comprehensive Learning Courses</h1>
+      <p class="fade-up delay-1">Master in-demand skills with our structured courses designed by industry experts. Learn at your own pace with lifetime access to course materials.</p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat fade-up"> <div class="num">10,000+</div><div class="label">Students Enrolled</div></div>
+      <div class="stat fade-up delay-1"> <div class="num">50+</div><div class="label">Expert Instructors</div></div>
+      <div class="stat fade-up delay-2"> <div class="num">300+</div><div class="label">Hours of Content</div></div>
+      <div class="stat fade-up delay-3"> <div class="num">95%</div><div class="label">Completion Rate</div></div>
+    </div>
+  </section>
+
+  <!-- Course section -->
+  <main class="container courses-section">
+    <div class="section-title fade-up"><h2>Choose Your Learning Path</h2><p>From beginner-friendly introductions to advanced specializations, find the perfect course to advance your career.</p></div>
+
+    <div class="courses-grid">
+      <!-- Course 1 -->
+      <article class="card fade-up">
+        <div class="card-header">
+          <span class="tag">Python</span>
+          <span class="price">₹35000</span>
+        </div>
+        <h3>Introduction to Gen AI</h3>
+        <p class="muted">Insightful course covering Generative AI, LLMs, Prompt Engineering and real-world applications.</p>
+
+        <ul class="meta">
+          <li>12 weeks</li>
+          <li>5 modules</li>
+          <li>2,847 students</li>
+          <li>★ 4.8</li>
+        </ul>
+
+        <div class="level">Level: <strong>Beginner to Intermediate</strong></div>
+        <a class="enroll" href="/course/1">Enroll Now</a>
+      </article>
+
+      <!-- Course 2 -->
+      <article class="card fade-up delay-1">
+        <div class="card-header">
+          <span class="tag">Machine Learning</span>
+          <span class="price">₹35000</span>
+        </div>
+        <h3>Artificial Neural Networks &amp; Deep Learning</h3>
+        <p class="muted">Practical course covering TensorFlow, PyTorch, computer vision, NLP and Capstone projects.</p>
+
+        <ul class="meta">
+          <li>15 weeks</li>
+          <li>8 modules</li>
+          <li>1,923 students</li>
+          <li>★ 4.9</li>
+        </ul>
+
+        <div class="level">Level: <strong>Intermediate</strong></div>
+        <a class="enroll" href="/course/2">Enroll Now</a>
+      </article>
+
+      <!-- Course 3 -->
+      <article class="card fade-up delay-2">
+        <div class="card-header">
+          <span class="tag">Deep Learning</span>
+          <span class="price">₹40000</span>
+        </div>
+        <h3>Data Science &amp; Machine Learning</h3>
+        <p class="muted">Supervised &amp; unsupervised learning, feature engineering, model building and deployment.</p>
+
+        <ul class="meta">
+          <li>15 weeks</li>
+          <li>3 modules</li>
+          <li>1,456 students</li>
+          <li>★ 4.7</li>
+        </ul>
+
+        <div class="level">Level: <strong>Advanced</strong></div>
+        <a class="enroll" href="/course/3">Enroll Now</a>
+      </article>
+
+      <!-- Course 4 -->
+      <article class="card fade-up delay-3">
+        <div class="card-header">
+          <span class="tag">Data Analytics</span>
+          <span class="price">₹25000</span>
+        </div>
+        <h3>Advanced Data Analytics Program</h3>
+        <p class="muted">Analyze & visualize data using Python — perfect for business analysts & data pros.</p>
+
+        <ul class="meta">
+          <li>12 weeks</li>
+          <li>38 modules</li>
+          <li>3,241 students</li>
+          <li>★ 4.6</li>
+        </ul>
+
+        <div class="level">Level: <strong>Beginner</strong></div>
+        <a class="enroll" href="/course/4">Enroll Now</a>
+      </article>
+
+      <!-- Course 5 -->
+      <article class="card fade-up">
+        <div class="card-header">
+          <span class="tag">AI &amp; LLMs</span>
+          <span class="price">₹15000</span>
+        </div>
+        <h3>Programming &amp; Analytics with Python</h3>
+        <p class="muted">Python basics, data handling with Pandas &amp; Numpy, visualization with Matplotlib &amp; Seaborn.</p>
+
+        <ul class="meta">
+          <li>5 weeks</li>
+          <li>5 modules</li>
+          <li>892 students</li>
+          <li>★ 4.9</li>
+        </ul>
+
+        <div class="level">Level: <strong>Advanced</strong></div>
+        <a class="enroll" href="/course/5">Enroll Now</a>
+      </article>
+
+      <!-- Course 6 -->
+      <article class="card fade-up delay-1">
+        <div class="card-header">
+          <span class="tag">Reinforcement Learning</span>
+          <span class="price">₹15000</span>
+        </div>
+        <h3>Data Analytics &amp; Visualization with Power BI</h3>
+        <p class="muted">Hands-on Power BI: transformation, modeling, DAX, dashboards for BI & analytics.</p>
+
+        <ul class="meta">
+          <li>5 weeks</li>
+          <li>6 modules</li>
+          <li>634 students</li>
+          <li>★ 4.8</li>
+        </ul>
+
+        <div class="level">Level: <strong>Advanced</strong></div>
+        <a class="enroll" href="/course/6">Enroll Now</a>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- "What You Get" section -->
+  <section class="what-you-get container">
+    <h2 class="center">What You Get With Every Course</h2>
+    <div class="features-grid">
+      <div class="feature card fade-up"> <div class="icon">▶</div><h4>Video Lectures</h4><p>High-quality video content with expert instructors</p></div>
+      <div class="feature card fade-up delay-1"> <div class="icon">📄</div><h4>Course Materials</h4><p>Comprehensive notes, code examples, and resources</p></div>
+      <div class="feature card card-neu fade-up delay-2"> <div class="icon">👥</div><h4>Community Access</h4><p>Join our learning community and network with peers</p></div>
+      <div class="feature card fade-up delay-3"> <div class="icon">📜</div><h4>Certification</h4><p>Earn certificates to showcase your achievements</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="brand">
+        <img src="https://i.postimg.cc/KzMwvGD8/LogoPNG.png" alt="logo" />
+        <p>Empowering the next generation of data scientists and AI engineers through comprehensive courses and hands-on workshops.</p>
+        <p class="muted">ops@variable.net.in · +91 8309790297 · Hyderabad, India</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="muted">
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/workshops">Workshops</a></li>
+          <li><a href="/career">Career</a></li>
+          <li><a href="/about">About Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Learning Areas</h4>
+        <ul class="muted">
+          <li>Gen AI</li>
+          <li>LLMs & Deep Learning</li>
+          <li>Reinforcement Learning</li>
+          <li>Data Science</li>
+          <li>Data Analytics</li>
+          <li>Programming</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <p>© 2025 Variable. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
