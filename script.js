@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('active');
-    } // we keep them visible once active
+    } 
   });
 }, { threshold: 0.15 });
 
